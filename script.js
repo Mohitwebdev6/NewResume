@@ -41,5 +41,9 @@ add_btn.addEventListener("click", () => {
     skill.value = "";
 })
 
-
+function saveAsPDF() {
+    const doc = new jsPDF();
+    doc.text("Your Resume Content Here", 10, 10);
+    doc.save("resume.pdf");
+}
 
