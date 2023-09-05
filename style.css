@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.form_head{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: rgb(187, 187, 187);
+    padding: 20px;
+}
+
+.form{
+    background-color: white;
+    max-width: 600px;
+    min-height: 90vh;
+    margin: 0 auto;
+    padding: 40px;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+}
+.form_content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form_content label {
+    font-size: larger;
+    /* font-weight: bold; */
+}
+
+.form_content input{
+    height: 25px;
+    border-width:2px ;
+    padding: 5px;
+    font-size:medium;
+    border-radius: 5px;
+}
+.form_content textarea{
+    margin-top: 10px;
+    font-size: large;
+    border-width:2px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.submit_btn{
+    margin-left:44%;
+    font-size: large;
+    padding: 6px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.submit_btn:active{
+    background-color: aqua;
+    color: black;
+}
+
+.submit_btn:hover{
+    cursor: pointer;
+}
+
+.add_btn{
+    background-color: cadetblue;
+    padding: 5px;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+.add_btn:hover{
+    cursor: pointer;
+}
+
+.add_btn:active{
+    background-color: aqua;
+    color: black;
+}
+
+input:focus{
+    border:4px solid lightgreen
+}
+
+
+
+/* Resume Style */
+
+.resume{
+    background-color: white;
+    max-width: 600px;
+    min-height:min-content;
+    margin: 0 auto;
+    padding: 40px;
+    display: none;
+}
+
+.resume_content b{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: large;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+.description{
+    line-height: 25px;
+}
+.resume_content{
+    margin-top: 15px;
+}
+.p_container{
+    margin:10px 0 0 20px;
+}
+
+.p_title{
+    color: rgb(199, 141, 64);
+}
+
+li{
+    font-size: large;
+    list-style: none;
+    background-color:lightcoral;
+    color: black;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 4px;
+    border-radius: 4px;
+}
